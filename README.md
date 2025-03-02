@@ -1,2 +1,9 @@
-# linux-setup-script
-A Bash script that automates Linux system setup and security hardening. It creates a new sudo user, configures SSH security, enables a firewall, installs Fail2Ban, and applies essential security measures to protect a fresh Linux installation. Ideal for system administrators and DevOps beginners.
+# Automated Linux System Setup & Hardening Script
+
+## 📌 About
+This **Bash script** automates the initial setup and security hardening of a fresh Linux installation. It:
+- Creates a **new user** with sudo access
+- Sets up **SSH key authentication**
+- Configures a **firewall (UFW)**
+- Secures **SSH (disables root login, changes port)**
+- Installs and configures **Fail2Ban** for security
